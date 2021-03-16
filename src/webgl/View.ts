@@ -21,7 +21,7 @@ export default class View {
 			antialias: true,
 		});
 		this.camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
-		this.camera.position.z = 15;
+		this.camera.position.z = 25;
 		this.scene = new THREE.Scene();
 		this.scene.background = new THREE.TextureLoader().load("./textures/bgnd.png");
 		this.torus = new Shape(this.scene);
